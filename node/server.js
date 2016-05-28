@@ -1,7 +1,5 @@
 const http = require('http'); // native to node
 
-console.log('jj')
-
 const server = http.createServer((request, response) => {
     // GET root route
     if(request.url === '/' && request.method === 'GET') {
